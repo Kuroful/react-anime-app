@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = `http://localhost:5000/anime`;
+const url = `https://anime-react-app-project.herokuapp.com/anime`;
 
 export const fetchAnime = () => axios.get(url);
 
